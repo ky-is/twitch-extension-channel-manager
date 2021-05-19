@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"lib": [ "dom", "esnext" ],
+		"module": "commonjs",
+		"declaration": true,
+		"outDir": ".",
+		"strict": true,
+		"removeComments": true,
+	},
+	"include": [
+		"lib/background",
+		"lib/inject",
+	],
+	"exclude": [],
+}
