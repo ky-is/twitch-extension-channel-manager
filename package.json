@@ -1,5 +1,5 @@
 {
-	"name": "twitch-extension-channel-manager",
+	"name": "@ky-is/twitch-extension-channel-manager",
 	"version": "0.0.0",
 	"author": "Kyle Coburn",
 	"license": "ISC",
@@ -15,7 +15,8 @@
 		"./inject": "./inject/index.js"
 	},
 	"scripts": {
-		"prepare": "tsc"
+		"prepare": "tsc",
+		"publish:test": "npm publish --access public --dry-run"
 	},
 	"devDependencies": {
 		"@ky-is/eslint-config": "^2.3.1",
